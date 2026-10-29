@@ -10,7 +10,7 @@ def test_endpoints():
     health = json.loads(req.read().decode('utf-8'))
     print("Health response:", health)
     assert health['status'] == 'healthy'
-    assert health['app'] == 'EcoTrack'
+    assert health['app'] == 'ECOTRACK'
 
     print("\nTesting /api/assistant/chat (EN)...")
     data = json.dumps({'message': 'How can I save money on electricity?', 'language': 'en'}).encode('utf-8')
@@ -43,8 +43,8 @@ def test_endpoints():
     print("\nTesting Vite Frontend on http://127.0.0.1:5173...")
     frontend_req = urllib.request.urlopen('http://127.0.0.1:5173')
     html = frontend_req.read().decode('utf-8')
-    assert '<title>EcoTrack' in html
-    print("Frontend Title verified in HTML: EcoTrack!")
+    assert '<title>ECOTRACK' in html
+    print("Frontend title verified in HTML: ECOTRACK!")
     print("\nALL VERIFICATIONS PASSED!")
 
 if __name__ == '__main__':

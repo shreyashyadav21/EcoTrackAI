@@ -1,5 +1,5 @@
 /**
- * CarbonKatha 2.0 Unified API Client
+ * ECOTRACK unified API client
  * Features:
  * - Dynamic token injection (Authorization: Bearer <token>)
  * - Multi-account support (Individual, Family, Organization)
@@ -58,7 +58,7 @@ async function request(endpoint, options = {}, customTimeout = DEFAULT_TIMEOUT_M
     return await response.json();
   } catch (error) {
     clearTimeout(timeoutId);
-    console.warn(`[CarbonKatha 2.0 API] ${options.method || 'GET'} ${url}:`, error.message);
+    console.warn(`[ECOTRACK API] ${options.method || 'GET'} ${url}:`, error.message);
     throw error;
   }
 }

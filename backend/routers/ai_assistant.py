@@ -65,7 +65,7 @@ KNOWLEDGE_RESPONSES = {
             "(CEA v19 factor: 0.820 kg/kWh), and Scope 3 covers employee commutes and business travel. Check our Organization tab for automated ESG reports."
         ),
         "default": (
-            "Namaste! I am EcoTrack's multilingual climate assistant. I can calculate your daily routine footprint, "
+            "Namaste! I am ECOTRACK's multilingual climate assistant. I can calculate your daily routine footprint, "
             "verify electricity bills, explain emissions in Kid/Student/Expert mode, and suggest money-saving swaps. "
             "What would you like to explore today?"
         ),
@@ -106,7 +106,7 @@ KNOWLEDGE_RESPONSES = {
             "और स्कोप 3 कर्मचारी यात्रा है। आप 'Organization' टैब से पूरी ऑडिट रिपोर्ट डाउनलोड कर सकते हैं।"
         ),
         "default": (
-            "नमस्ते! मैं इको ट्रैकर एआई (EcoTrack) सहायक हूँ। आप बोलकर या लिखकर अपनी दिनचर्या बता सकते हैं, "
+            "नमस्ते! मैं ECOTRACK सहायक हूँ। आप बोलकर या लिखकर अपनी दिनचर्या बता सकते हैं, "
             "बिजली बिल स्कैन कर सकते हैं, सोलर पैनल व ईवी के फायदे जान सकते हैं और पैसे बचाने वाले सुझाव पा सकते हैं।"
         ),
     },
@@ -142,7 +142,7 @@ KNOWLEDGE_RESPONSES = {
             "இது சுற்றுச்சூழலுக்கு மிகவும் சிறந்தது."
         ),
         "default": (
-            "வணக்கம்! நான் எகோ டிராக்கர் ஏஐ (EcoTrack) தமிழ் உதவியாளர். உங்கள் தினசரி மின்சார பயன்பாடு, "
+            "வணக்கம்! நான் ECOTRACK தமிழ் உதவியாளர். உங்கள் தினசரி மின்சார பயன்பாடு, "
             "கார்பன் குறைப்பு வழிகள், சோலார் பேனல் மற்றும் வெகுமதிகள் பற்றி என்னிடம் கேட்கலாம்."
         ),
     },
@@ -178,7 +178,7 @@ KNOWLEDGE_RESPONSES = {
             "ఇది మాంసాహారం కంటే 70% తక్కువ కార్బన్ ఉద్గారాలను ఉత్పత్తి చేస్తుంది."
         ),
         "default": (
-            "నమస్కారం! నేను ఎకో ట్రాకర్ ఏఐ (EcoTrack) తెలుగు అసిస్టెంట్‌ని. మీ రోజువారీ రవాణా, విద్యుత్ బిల్లులు, "
+            "నమస్కారం! నేను ECOTRACK తెలుగు అసిస్టెంట్‌ని. మీ రోజువారీ రవాణా, విద్యుత్ బిల్లులు, "
             "సోలార్ ప్యానెల్స్ మరియు కార్బన్ తగ్గింపుల గురించి నన్ను అడగవచ్చు."
         ),
     },
@@ -214,7 +214,7 @@ KNOWLEDGE_RESPONSES = {
             "ಇದು ಮಾಂಸಾಹಾರಕ್ಕಿಂತ 70% ಕಡಿಮೆ ಇಂಗಾಲವನ್ನು ಉತ್ಪಾದಿಸುತ್ತದೆ."
         ),
         "default": (
-            "ನಮಸ್ಕಾರ! ನಾನು ಇಕೋ ಟ್ರ್ಯಾಕರ್ ಎಐ (EcoTrack) ಕನ್ನಡ ಸಹಾಯಕ. ನಿಮ್ಮ ದೈನಂದಿನ ದಿನಚರಿ, ವಿದ್ಯುತ್ ಬಿಲ್ ವಿಶ್ಲೇಷಣೆ, "
+            "ನಮಸ್ಕಾರ! ನಾನು ECOTRACK ಕನ್ನಡ ಸಹಾಯಕ. ನಿಮ್ಮ ದೈನಂದಿನ ದಿನಚರಿ, ವಿದ್ಯುತ್ ಬಿಲ್ ವಿಶ್ಲೇಷಣೆ, "
             "ಸೋಲಾರ್ ಪ್ಯಾನಲ್ ಮತ್ತು ಕಾರ್ಬನ್ ಉಳಿತಾಯ ಕ್ರಮಗಳ ಬಗ್ಗೆ ನನ್ನನ್ನು ಕೇಳಬಹುದು."
         ),
     },
@@ -234,7 +234,7 @@ def chat_with_assistant(req: ChatMessageRequest, authorization: Optional[str] = 
     if claude.is_ready():
         try:
             reply = claude.generate_text(
-                f"You are EcoTrack's multilingual Indian climate assistant. Answer helpfully and concisely in {lang}. User question: {req.message}"
+                f"You are ECOTRACK's multilingual Indian climate assistant. Answer helpfully and concisely in {lang}. User question: {req.message}"
             )
             if reply:
                 return {"reply": reply, "engine": "claude", "language": lang}

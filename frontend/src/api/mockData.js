@@ -1,5 +1,5 @@
 /**
- * CarbonKatha Comprehensive Mock Datasets & Calculations
+ * ECOTRACK comprehensive mock datasets & calculations
  * Provides hackathon-resilient offline fallback data matching exact backend response contracts.
  */
 

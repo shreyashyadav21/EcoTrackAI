@@ -287,7 +287,7 @@ export function Organization() {
             </div>
 
             <div className="flex items-center justify-between pt-6 border-t border-beach-200 mt-6">
-              <span className="text-[11px] text-coastal-500">Generated automatically by EcoTrack ESG Engine</span>
+              <span className="text-[11px] text-coastal-500">Generated automatically by ECOTRACK ESG Engine</span>
               <button
                 onClick={() => window.print()}
                 className="inline-flex items-center gap-1.5 px-5 py-2 rounded-full text-xs font-bold bg-coastal-900 text-white shadow-sm"

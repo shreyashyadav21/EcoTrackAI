@@ -1,4 +1,4 @@
-"""Test suite for CarbonKatha Voice & Language Database Integration."""
+"""Test suite for ECOTRACK voice & language database integration."""
 
 import io
 import json
@@ -12,7 +12,7 @@ from backend.database import init_db, seed_corpus_if_empty, get_db_connection
 client = TestClient(app)
 
 print("=" * 72)
-print("Testing CarbonKatha Voice & Language Database Integration")
+print("Testing ECOTRACK voice & language database integration")
 print("=" * 72)
 
 # 1. Test Database Init & Seeding

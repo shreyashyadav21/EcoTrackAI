@@ -1,4 +1,4 @@
-"""System verification script for CarbonKatha."""
+"""System verification script for ECOTRACK."""
 
 import io
 import sys
@@ -17,13 +17,13 @@ from backend.main import app
 client = TestClient(app)
 
 print("=" * 72)
-print("VERIFYING COMPLETE CARBONKATHA ARCHITECTURE")
+print("VERIFYING COMPLETE ECOTRACK ARCHITECTURE")
 print("=" * 72)
 
 # 1. Verify Frontend SPA Serving
 resp_index = client.get("/")
 assert resp_index.status_code == 200, f"Expected 200, got {resp_index.status_code}"
-assert "CarbonKatha" in resp_index.text, "Index HTML must contain CarbonKatha"
+assert "ECOTRACK" in resp_index.text, "Index HTML must contain ECOTRACK"
 print("[OK] Frontend UI (index.html) successfully served at '/'")
 
 resp_css = client.get("/css/style.css")

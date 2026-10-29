@@ -7,7 +7,7 @@ from typing import Any, Dict, List, Optional
 from fastapi import APIRouter, File, Header, HTTPException, UploadFile, status
 from pydantic import BaseModel, Field
 
-logger = logging.getLogger("carbonkatha.calculator")
+logger = logging.getLogger("ecotrack.calculator")
 
 try:
     from api.claude_client import ClaudeLanguageEngine

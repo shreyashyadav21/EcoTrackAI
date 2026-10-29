@@ -25,7 +25,7 @@ export function AiChatWidget() {
   const [messages, setMessages] = useState([
     {
       sender: 'bot',
-      text: "Namaste! I am EcoTrack's multilingual climate assistant. You can speak or type in English, हिन्दी, தமிழ், తెలుగు, or ಕನ್ನಡ.",
+      text: "Namaste! I am ECOTRACK's multilingual climate assistant. You can speak or type in English, हिन्दी, தமிழ், తెలుగు, or ಕನ್ನಡ.",
       time: "Just now",
     },
   ]);
@@ -283,7 +283,7 @@ export function AiChatWidget() {
         <button
           onClick={() => setIsOpen(true)}
           className="relative w-14 h-14 rounded-2xl bg-gradient-to-br from-emerald-800 to-teal-900 text-white shadow-xl hover:scale-105 transition-all flex items-center justify-center border border-emerald-600/40"
-          title={t('chat.title', "Chat with EcoTrack Assistant")}
+          title={t('chat.title', "Chat with ECOTRACK Assistant")}
         >
           <Bot className="w-7 h-7 text-emerald-200" />
           <span className="absolute -top-1 -right-1 w-3.5 h-3.5 bg-emerald-400 rounded-full border-2 border-white animate-pulse" />
@@ -302,7 +302,7 @@ export function AiChatWidget() {
               </div>
               <div>
                 <div className="flex items-center gap-1.5">
-                  <h4 className="font-bold text-sm tracking-tight">{t('chat.title', 'EcoTrack Assistant')}</h4>
+                  <h4 className="font-bold text-sm tracking-tight">{t('chat.title', 'ECOTRACK Assistant')}</h4>
                   <span className="text-[10px] bg-emerald-600 text-white font-extrabold px-1.5 py-0.2 rounded-md">LIVE</span>
                 </div>
                 <span className="text-[11px] text-emerald-300 block">

@@ -133,7 +133,7 @@ export function Dashboard() {
   // Download PDF/JSON report
   const handleDownloadReport = () => {
     const reportData = {
-      appName: "EcoTrack",
+      appName: "ECOTRACK",
       timestamp: new Date().toISOString(),
       language: i18n.language,
       calculation: calcData,
@@ -144,7 +144,7 @@ export function Dashboard() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `EcoTrack_Audit_Report_${new Date().toISOString().split('T')[0]}.json`;
+    a.download = `ECOTRACK_Audit_Report_${new Date().toISOString().split('T')[0]}.json`;
     a.click();
     URL.revokeObjectURL(url);
   };
@@ -194,7 +194,7 @@ export function Dashboard() {
               <span>{t('dashboard.cea_notice', 'CEA Grid Factor: 0.820 kg CO₂e / kWh')}</span>
             </div>
             <h1 className="text-3xl font-black text-slate-900 tracking-tight">
-              {t('nav.dashboard', 'EcoTrack Dashboard')}
+              {t('nav.dashboard', 'ECOTRACK Dashboard')}
             </h1>
             <p className="text-sm text-slate-600 mt-1 max-w-2xl">
               {t('dashboard.subtitle', 'Real-time carbon emissions tracking based on CEA Grid Emission Factor v19 (0.820 kg CO₂e/kWh).')}
@@ -685,7 +685,7 @@ export function Dashboard() {
             </div>
 
             <p className="text-xs text-slate-600 mb-3">
-              EcoTrack adheres strictly to Indian governmental and international climate emission accounting baselines:
+              ECOTRACK adheres strictly to Indian governmental and international climate emission accounting baselines:
             </p>
 
             <div className="space-y-2.5 text-xs text-slate-700 mb-6">

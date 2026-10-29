@@ -1,4 +1,4 @@
-"""AI Models and API Key configuration for CarbonKatha."""
+"""AI models and API key configuration for ECOTRACK."""
 
 import os
 from pathlib import Path

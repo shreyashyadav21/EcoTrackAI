@@ -21,7 +21,7 @@ def request(url, method="GET", data=None, token=None):
 
 def main():
     print("=" * 65)
-    print("CARBONKATHA 2.0 — FRONTEND / BACKEND / DB VERIFICATION")
+    print("ECOTRACK — FRONTEND / BACKEND / DB VERIFICATION")
     print("=" * 65)
 
     # 1. Health check
@@ -148,7 +148,7 @@ def main():
         with urllib.request.urlopen(f"{BASE_FRONTEND}/", timeout=5) as resp:
             frontend_html = resp.read().decode("utf-8")
             print(f"    Frontend Status Code: {resp.status}")
-            print(f"    Title in HTML: {'EcoTrack' in frontend_html}")
+            print(f"    Title in HTML: {'ECOTRACK' in frontend_html}")
             assert resp.status == 200, "Frontend server returned non-200"
     except Exception as e:
         print(f"    Frontend probe note: {e}")

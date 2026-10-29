@@ -1,4 +1,4 @@
-"""Automated End-to-End Verification Suite for CarbonKatha 2.0.
+"""Automated end-to-end verification suite for ECOTRACK.
 Tests all PS-01 requirements:
 1. Multi-account authentication (Individual, Family, Organization)
 2. 7-category emissions calculation
@@ -7,7 +7,7 @@ Tests all PS-01 requirements:
 5. Organization multi-branch accounting and ESG reports
 6. GPS trip tracking and simulated demo routes
 7. Carbon Coins ledger and atomic coupon redemption
-8. Multilingual AI assistant in en, hi, ta, te
+8. Multilingual AI assistant in en, hi, ta, te, kn
 """
 
 import sys
@@ -23,7 +23,7 @@ BASE_URL = "http://127.0.0.1:8000"
 
 def run_tests():
     print("=" * 70)
-    print("🚀 RUNNING CARBONKATHA 2.0 FULL SYSTEM VERIFICATION SUITE")
+    print("🚀 RUNNING ECOTRACK FULL SYSTEM VERIFICATION SUITE")
     print("=" * 70)
 
     # 1. Health check

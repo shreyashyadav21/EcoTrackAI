@@ -1,4 +1,4 @@
-"""Main FastAPI application for EcoTrack Backend."""
+"""Main FastAPI application for the ECOTRACK backend."""
 
 import os
 import sys
@@ -14,7 +14,7 @@ if str(PROJECT_ROOT) not in sys.path:
     sys.path.insert(0, str(PROJECT_ROOT))
 
 from backend.database import init_db, seed_corpus_if_empty
-from backend.seed_data import seed_carbonkatha_demo_data
+from backend.seed_data import seed_ecotrack_demo_data
 from backend.routers import (
     activities,
     ai_assistant,
@@ -36,12 +36,12 @@ async def lifespan(app: FastAPI):
     # Initialize SQLite database and seed multilingual training corpus & demo datasets
     init_db()
     seed_corpus_if_empty()
-    seed_carbonkatha_demo_data()
+    seed_ecotrack_demo_data()
     yield
 
 
 app = FastAPI(
-    title="EcoTrack — AI Carbon Tracking, Verification & Rewards Platform",
+    title="ECOTRACK — AI Carbon Tracking, Verification & Rewards Platform",
     version="2.0.0",
     description="Multilingual (en/hi/ta/te/kn) carbon footprint monitoring, evidence verification, and rewards for individuals, families, and organizations in India.",
     lifespan=lifespan,
@@ -77,7 +77,7 @@ def health():
     from backend.database import get_active_db_engine
     return {
         "status": "healthy",
-        "app": "EcoTrack",
+        "app": "ECOTRACK",
         "version": "2.0.0",
         "database": get_active_db_engine(),
         "account_types": ["individual", "family", "organization"],

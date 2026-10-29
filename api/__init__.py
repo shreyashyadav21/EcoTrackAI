@@ -1,4 +1,4 @@
-"""CarbonKatha 2.0 API & AI Engine Module."""
+"""ECOTRACK API & AI engine module."""
 
 from api.claude_client import ClaudeLanguageEngine
 from api.config import AIConfig

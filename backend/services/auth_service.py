@@ -1,4 +1,4 @@
-"""Authentication and Account Management Service for CarbonKatha 2.0.
+"""Authentication and account management service for ECOTRACK.
 Supports Individual, Family/Household, and Organization accounts.
 Uses standard library PBKDF2-HMAC-SHA256 for secure password hashing.
 """
@@ -170,7 +170,7 @@ class AuthService:
                     user_id, account_type, target_id, amount, transaction_type, reason, balance_after, reference_id
                 ) VALUES (?, ?, ?, ?, ?, ?, ?, ?)
                 """,
-                (user_id, account_type, target_id, 50, "admin_adjustment", "Welcome to CarbonKatha 2.0!", 50, f"welcome_{user_id}"),
+                (user_id, account_type, target_id, 50, "admin_adjustment", "Welcome to ECOTRACK!", 50, f"welcome_{user_id}"),
             )
 
             conn.commit()

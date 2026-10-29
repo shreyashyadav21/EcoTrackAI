@@ -169,10 +169,10 @@ export default function Login({ defaultMode = 'login' }) {
       <div className="text-center mb-8 max-w-lg">
         <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-emerald-50 text-emerald-900 border border-emerald-200 text-xs font-bold mb-3 shadow-xs">
           <Leaf className="w-3.5 h-3.5 text-emerald-700" />
-          <span>{t('brand', 'EcoTrack')} • {t('subtitle', 'India Footprint & Rewards')}</span>
+          <span>{t('brand', 'ECOTRACK')} • {t('subtitle', 'India Footprint & Rewards')}</span>
         </div>
         <h1 className="text-3xl font-black text-slate-900 tracking-tight">
-          {mode === 'login' ? t('auth.sign_in_title', 'Welcome to EcoTrack') : t('auth.create_acc_title', 'Join EcoTrack')}
+          {mode === 'login' ? t('auth.sign_in_title', 'Welcome to ECOTRACK') : t('auth.create_acc_title', 'Join ECOTRACK')}
         </h1>
         <p className="text-sm text-slate-600 mt-1">
           {mode === 'login'

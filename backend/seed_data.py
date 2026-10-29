@@ -1,4 +1,4 @@
-"""Seed rich, realistic, clearly labelled demonstration data for CarbonKatha 2.0.
+"""Seed rich, realistic, clearly labelled demonstration data for ECOTRACK.
 Provides instantaneous, deterministic hackathon accounts for:
 1. Individual: arjun.demo@carbonkatha.in
 2. Family: sharma.family@carbonkatha.in
@@ -11,7 +11,7 @@ from backend.database import get_db_connection, init_db
 from backend.services.auth_service import hash_password
 
 
-def seed_carbonkatha_demo_data() -> None:
+def seed_ecotrack_demo_data() -> None:
     init_db()
     with get_db_connection() as conn:
         cursor = conn.cursor()
@@ -21,7 +21,7 @@ def seed_carbonkatha_demo_data() -> None:
         if cursor.fetchone():
             return  # Already seeded
 
-        print("Seeding CarbonKatha 2.0 Demo Datasets...")
+        print("Seeding ECOTRACK demo datasets...")
 
         # ---------------------------------------------------------
         # 1. Individual Demo Account: Arjun Rao
@@ -200,7 +200,7 @@ def seed_carbonkatha_demo_data() -> None:
             """
             INSERT INTO coin_transactions (user_id, account_type, target_id, amount, transaction_type, reason, balance_after, reference_id)
             VALUES
-            (?, 'individual', ?, 50, 'admin_adjustment', 'Welcome to CarbonKatha 2.0', 50, 'welcome'),
+            (?, 'individual', ?, 50, 'admin_adjustment', 'Welcome to ECOTRACK', 50, 'welcome'),
             (?, 'individual', ?, 25, 'earned_verification', 'Verified BESCOM Electricity Bill Upload', 75, 'ev_1'),
             (?, 'individual', ?, 50, 'earned_reduction', 'Reduced monthly electricity emissions by 14%', 125, 'red_sept'),
             (?, 'individual', ?, 25, 'earned_streak', '7-Day Continuous Logging Streak Completed', 150, 'streak_7'),
@@ -274,8 +274,8 @@ def seed_carbonkatha_demo_data() -> None:
         """)
 
         conn.commit()
-        print("Successfully seeded CarbonKatha 2.0 demonstration data!")
+        print("Successfully seeded ECOTRACK demonstration data!")
 
 
 if __name__ == "__main__":
-    seed_carbonkatha_demo_data()
+    seed_ecotrack_demo_data()

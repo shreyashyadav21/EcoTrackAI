@@ -1,5 +1,5 @@
  HEAD
-# CarbonKatha 2.0 🌿
+# ECOTRACK 🌿
 
 > **AI-Powered Carbon Footprint Tracking, Verification, Reduction, and Rewards Platform for India**  
 > *Built for Hack Fest 2026 • Problem PS-01*
@@ -11,13 +11,13 @@
 The codebase is organized into three primary, isolated modules:
 
 ```
-carbonkatha/
+ECOTRACK/
 ├── frontend/               # React 18 + Vite 5 + TailwindCSS + Recharts
 │   ├── src/
 │   │   ├── pages/         # 12 modules (Log, Dashboard, WhatIf, Progress, Actions, Challenges, Leaderboard, Evidence, Family, Org, Rewards, Login)
 │   │   ├── components/    # Navbar, AiChatWidget, Footer
 │   │   ├── api/           # Unified API Client (client.js) with dynamic token injection & mock fallback
-│   │   └── i18n.js        # Vernacular dictionaries for EN, HI, TA, TE
+│   │   └── i18n.js        # Vernacular dictionaries for EN, HI, TA, TE, KN
 │   └── dist/              # Production optimized static build
 │
 ├── backend/                # Python FastAPI + PostgreSQL 18 Engine
@@ -75,6 +75,7 @@ Variable discrepancies between the frontend and backend have been harmonized dir
 
 ### 2. Local PostgreSQL 18 Database with Full Precautions
 - **PostgreSQL 18** running locally on port 5432, database `carbonkatha`.
+- Existing database names, storage keys, environment variable names, and demo account email addresses are retained for deployment and data compatibility.
 - **Security Precautions**:
   - Strictly parameterized SQL queries preventing any SQL injection vulnerability.
   - **PBKDF2-HMAC-SHA256** password hashing with 100,000 iterations and 32-byte cryptographic salts.
@@ -83,8 +84,8 @@ Variable discrepancies between the frontend and backend have been harmonized dir
   - Dual-engine fallback: transparently falls back to SQLite if PostgreSQL is ever temporarily offline.
 
 ### 3. Exhaustive Regional Language Translation (All Webpage Text)
-- Complete UI translation in **English**, **हिन्दी (Hindi)**, **தமிழ் (Tamil)**, and **తెలుగు (Telugu)**.
-- When switching language from the top bar (`EN` | `हिं` | `த` | `తె`), **every single text element on the webpage converts instantly**:
+- Complete UI translation in **English**, **हिन्दी (Hindi)**, **தமிழ் (Tamil)**, **తెలుగు (Telugu)**, and **ಕನ್ನಡ (Kannada)**.
+- When switching language from the top bar (`EN` | `हिं` | `த` | `తె` | `ಕ`), **every single text element on the webpage converts instantly**:
   - Navigation bar, buttons, and demo account menus.
   - Login & registration forms, labels, error notices, and placeholders.
   - 7 daily life category cards, units, and assumptions.
@@ -97,8 +98,8 @@ Variable discrepancies between the frontend and backend have been harmonized dir
   - Floating multilingual AI assistant.
 
 ### 4. Regional Voice Recognition & Text-to-Speech (TTS)
-- Voice recording adapts dynamically to the selected language (`hi-IN`, `ta-IN`, `te-IN`, `en-IN`).
-- AI assistant responses and daily routine insights include regional **Text-to-Speech audio playback** (`Volume2` button) so users can hear the advice spoken fluently in Hindi, Tamil, Telugu, or English!
+- Voice recording adapts dynamically to the selected language (`hi-IN`, `ta-IN`, `te-IN`, `kn-IN`, `en-IN`).
+- AI assistant responses and daily routine insights include regional **Text-to-Speech audio playback** (`Volume2` button) so users can hear the advice spoken in Hindi, Tamil, Telugu, Kannada, or English!
 
 ### 5. High-Precision AI Model Training
 - Expanded ground-truth training corpus with **60 multilingual samples** across all 7 Indian emissions categories.
@@ -108,11 +109,13 @@ Variable discrepancies between the frontend and backend have been harmonized dir
 
 ## 👥 Instant Demo Accounts
 
-| Role | Email | Password | Pre-Loaded Features |
-| :--- | :--- | :--- | :--- |
-| **Individual Demo** | `arjun.demo@carbonkatha.in` | `DemoUser@2026` | 14 logged activities, verified BESCOM bill, 175 Carbon Coins, GPS trips |
-| **Organization Demo** | `ecocorp.hq@carbonkatha.in` | `DemoUser@2026` | 85 employees, 3 branches, Scope 1/2/3 breakdown, ESG audit report |
-| **Family Demo** | `sharma.family@carbonkatha.in` | `DemoUser@2026` | 4 members, shared whole-home electricity bill, 220 coins |
+| Role | Email | Pre-Loaded Features |
+| :--- | :--- | :--- |
+| **Individual Demo** | `arjun.demo@carbonkatha.in` | 14 logged activities, verified BESCOM bill, 175 Carbon Coins, GPS trips |
+| **Organization Demo** | `ecocorp.hq@carbonkatha.in` | 85 employees, 3 branches, Scope 1/2/3 breakdown, ESG audit report |
+| **Family Demo** | `sharma.family@carbonkatha.in` | 4 members, shared whole-home electricity bill, 220 coins |
+
+Use the built-in demo account shortcuts on the sign-in screen; credentials are intentionally not documented here.
 
 ---
 

@@ -62,7 +62,7 @@ function scanDir(dir) {
 }
 
 console.log('Verifying all JSX components across frontend/src...');
-const totalErrors = scanDir('./carbonkatha/frontend/src');
+const totalErrors = scanDir('./frontend/src');
 if (totalErrors === 0) {
   console.log('SUCCESS: All JSX tags in all files are properly imported and declared!');
 } else {

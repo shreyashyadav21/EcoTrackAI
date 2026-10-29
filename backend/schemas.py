@@ -1,4 +1,4 @@
-"""Pydantic schemas for CarbonKatha Backend."""
+"""Pydantic schemas for the ECOTRACK backend."""
 
 from typing import Any, Dict, List, Optional
 from pydantic import BaseModel, Field

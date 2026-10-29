@@ -13,7 +13,7 @@ import Actions from './pages/Actions';
 import Challenges from './pages/Challenges';
 import Leaderboard from './pages/Leaderboard';
 
-// CarbonKatha 2.0 Extended Pages
+// ECOTRACK extended pages
 import Evidence from './pages/Evidence';
 import Family from './pages/Family';
 import Organization from './pages/Organization';
@@ -60,11 +60,11 @@ export function App() {
         <footer className="border-t border-beach-300 bg-beach-100/90 py-6 text-center text-xs text-coastal-500">
           <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-3">
             <div className="flex items-center gap-2">
-              <span className="font-extrabold text-coastal-800">CarbonKatha 2.0</span>
+              <span className="font-extrabold text-coastal-800">ECOTRACK</span>
               <span>• Verified Proof-of-Carbon & Rewards Platform for India</span>
             </div>
             <div className="flex items-center gap-4 text-coastal-600">
-              <span>English • हिन्दी • தமிழ் • తెలుగు</span>
+              <span>English • हिन्दी • தமிழ் • తెలుగు • ಕನ್ನಡ</span>
               <span>CEA v19 Standard • SHA-256 Checksum Proof</span>
             </div>
           </div>

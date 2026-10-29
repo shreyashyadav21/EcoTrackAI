@@ -122,10 +122,10 @@ export function Navbar() {
             <div>
               <div className="flex items-center gap-1.5">
                 <span className="text-lg font-black tracking-tight text-slate-900 leading-tight">
-                  {t('brand', 'EcoTrack')}
+                  {t('brand', 'ECOTRACK')}
                 </span>
                 <span className="text-[10px] bg-emerald-700 text-white font-extrabold px-1.5 py-0.5 rounded-md tracking-wider">
-                  TRACK
+                  AI
                 </span>
               </div>
               <span className="text-[11px] font-medium text-slate-500 block leading-tight">

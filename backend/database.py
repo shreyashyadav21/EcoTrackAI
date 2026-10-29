@@ -1,4 +1,4 @@
-"""PostgreSQL (Primary) & SQLite (Fallback) database management for CarbonKatha 2.0.
+"""PostgreSQL (Primary) & SQLite (Fallback) database management for ECOTRACK.
 Ensures data persistence in local PostgreSQL with full security precautions:
 - Strictly parameterized queries to eliminate SQL injection
 - PBKDF2-HMAC-SHA256 password hashing with unique salt
@@ -15,7 +15,7 @@ import sqlite3
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
-logger = logging.getLogger("carbonkatha.database")
+logger = logging.getLogger("ecotrack.database")
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DB_PATH = str(PROJECT_ROOT / "carbonkatha.db")
@@ -184,7 +184,7 @@ def get_active_db_engine() -> str:
 
 
 def init_db() -> None:
-    """Initialize all CarbonKatha 2.0 database tables in both PostgreSQL and SQLite."""
+    """Initialize all ECOTRACK database tables in both PostgreSQL and SQLite."""
     UPLOAD_DIR.mkdir(parents=True, exist_ok=True)
 
     # 1. Initialize PostgreSQL if available

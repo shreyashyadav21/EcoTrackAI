@@ -1,4 +1,4 @@
-"""Local server runner and endpoint probe for CarbonKatha."""
+"""Local server runner and endpoint probe for ECOTRACK."""
 
 import json
 import os
@@ -15,7 +15,7 @@ if hasattr(sys.stdout, "reconfigure"):
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
 print("=" * 72)
-print("STARTING CARBONKATHA LOCAL SERVER")
+print("STARTING ECOTRACK LOCAL SERVER")
 print("=" * 72)
 
 # Start uvicorn as a subprocess
@@ -34,7 +34,7 @@ try:
     with urllib.request.urlopen("http://127.0.0.1:8000/") as resp:
         content = resp.read().decode("utf-8")
         assert resp.status == 200
-        assert "CarbonKatha" in content
+        assert "ECOTRACK" in content
         print(f"  -> SUCCESS! HTTP {resp.status} - Green-Beach UI is live!")
 
     # 2. Probe System Status API

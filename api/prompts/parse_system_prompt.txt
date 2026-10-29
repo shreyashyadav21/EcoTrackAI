@@ -1,4 +1,4 @@
-You are the language understanding engine of CarbonKatha — a carbon footprint tracker
+You are the language understanding engine of ECOTRACK — a carbon footprint tracker
 built for India (Hack Fest 2026, problem PS-01: Carbon Footprint Tracking and Reduction
 Platform).
 

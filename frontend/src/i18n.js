@@ -4,7 +4,7 @@ import { initReactI18next } from 'react-i18next';
 const resources = {
   en: {
     translation: {
-      brand: "EcoTrack",
+      brand: "ECOTRACK",
       subtitle: "Smart Carbon Footprint Tracking & Reduction",
       nav: {
         log: "Log Routine",
@@ -55,9 +55,9 @@ const resources = {
         deliveries: "deliveries",
       },
       auth: {
-        sign_in_title: "Welcome to EcoTrack",
+        sign_in_title: "Welcome to ECOTRACK",
         sign_in_sub: "Access your verified carbon dashboard, ledger & reward vouchers.",
-        create_acc_title: "Join EcoTrack",
+        create_acc_title: "Join ECOTRACK",
         create_acc_sub: "Track everyday emissions, verify bills, and earn Carbon Coins across India.",
         tab_sign_in: "Sign In",
         tab_register: "Create Account",
@@ -223,7 +223,7 @@ const resources = {
         saved_col: "Total Saved",
       },
       chat: {
-        title: "EcoTrack Assistant",
+        title: "ECOTRACK Assistant",
         subtitle: "Speak or chat in English, हिन्दी, தமிழ், తెలుగు, or ಕನ್ನಡ",
         placeholder: "Ask about your bill, low-cost swaps, solar or EV...",
         send: "Send",
@@ -235,7 +235,7 @@ const resources = {
   },
   hi: {
     translation: {
-      brand: "EcoTrack",
+      brand: "ECOTRACK",
       subtitle: "स्मार्ट कार्बन ट्रैकिंग और न्यूनीकरण मंच",
       nav: {
         log: "दिनचर्या दर्ज करें",
@@ -286,9 +286,9 @@ const resources = {
         deliveries: "पार्सल",
       },
       auth: {
-        sign_in_title: "EcoTrack में आपका स्वागत है",
+        sign_in_title: "ECOTRACK में आपका स्वागत है",
         sign_in_sub: "अपने सत्यापित कार्बन डैशबोर्ड, लेज़र और रिवॉर्ड वाउचर तक पहुँचें।",
-        create_acc_title: "EcoTrack से जुड़ें",
+        create_acc_title: "ECOTRACK से जुड़ें",
         create_acc_sub: "दैनिक उत्सर्जन मापें, बिजली बिल सत्यापित करें और कार्बन कॉइन्स कमाएं।",
         tab_sign_in: "साइन इन",
         tab_register: "नया खाता बनाएं",
@@ -454,7 +454,7 @@ const resources = {
         saved_col: "कुल बचत",
       },
       chat: {
-        title: "EcoTrack सहायक",
+        title: "ECOTRACK सहायक",
         subtitle: "हिंदी, अंग्रेज़ी, तमिल, तेलुगु या कन्नड़ में बोलें या चैट करें",
         placeholder: "बिजली बिल, कम खर्च के उपाय, सोलर या ईवी के बारे में पूछें...",
         send: "भेजें",
@@ -466,7 +466,7 @@ const resources = {
   },
   ta: {
     translation: {
-      brand: "EcoTrack",
+      brand: "ECOTRACK",
       subtitle: "ஸ்மார்ட் கார்பன் கண்காணிப்பு மற்றும் குறைப்பு",
       nav: {
         log: "பதிவு செய்க",
@@ -517,9 +517,9 @@ const resources = {
         deliveries: "பார்சல்கள்",
       },
       auth: {
-        sign_in_title: "EcoTrack-க்கு நல்வரவு",
+        sign_in_title: "ECOTRACK-க்கு நல்வரவு",
         sign_in_sub: "உங்கள் சரிபார்க்கப்பட்ட கார்பன் டாஷ்போர்டு மற்றும் வெகுமதி கூப்பன்களை அணுகவும்.",
-        create_acc_title: "EcoTrack-ல் இணையுங்கள்",
+        create_acc_title: "ECOTRACK-ல் இணையுங்கள்",
         create_acc_sub: "தினசரி உமிழ்வைக் கண்காணிக்கவும், மின்சார பில்களை சரிபார்க்கவும் மற்றும் காயின்களைப் பெறவும்.",
         tab_sign_in: "உள்நுழைக",
         tab_register: "புதிய கணக்கு",
@@ -685,7 +685,7 @@ const resources = {
         saved_col: "மொத்த சேமிப்பு",
       },
       chat: {
-        title: "EcoTrack உதவியாளர்",
+        title: "ECOTRACK உதவியாளர்",
         subtitle: "தமிழ், ஆங்கிலம், இந்தி, தெலுங்கு அல்லது கன்னடத்தில் பேசுங்கள்",
         placeholder: "மின்சார பில், சேமிப்பு வழிகள், சோலார் பற்றி கேளுங்கள்...",
         send: "அனுப்புக",
@@ -697,7 +697,7 @@ const resources = {
   },
   te: {
     translation: {
-      brand: "EcoTrack",
+      brand: "ECOTRACK",
       subtitle: "స్మార్ట్ కార్బన్ ట్రాకింగ్ & తగ్గింపు వేదిక",
       nav: {
         log: "నమోదు చేయండి",
@@ -748,9 +748,9 @@ const resources = {
         deliveries: "ఆర్డర్లు",
       },
       auth: {
-        sign_in_title: "EcoTrack కి స్వాగతం",
+        sign_in_title: "ECOTRACK కి స్వాగతం",
         sign_in_sub: "మీ ధృవీకరించిన కార్బన్ డ్యాష్‌బోర్డ్, లెడ్జర్ మరియు వోచర్లను యాక్సెస్ చేయండి.",
-        create_acc_title: "EcoTrack లో చేరండి",
+        create_acc_title: "ECOTRACK లో చేరండి",
         create_acc_sub: "రోజువారీ ఉద్గారాలను లెక్కించండి, కరెంట్ బిల్లులను ధృవీకరించండి మరియు కాయిన్స్ సంపాదించండి.",
         tab_sign_in: "లాగిన్",
         tab_register: "ఖాతా సృష్టించండి",
@@ -916,7 +916,7 @@ const resources = {
         saved_col: "మొత్తం ఆదా",
       },
       chat: {
-        title: "EcoTrack అసిస్టెంట్",
+        title: "ECOTRACK అసిస్టెంట్",
         subtitle: "తెలుగు, ఇంగ్లీష్, హిందీ, తమిళం లేదా కన్నడలో మాట్లాడండి",
         placeholder: "కరెంట్ బిల్లు, ఆదా మార్గాలు, సోలార్ గురించి అడగండి...",
         send: "పంపండి",
@@ -928,7 +928,7 @@ const resources = {
   },
   kn: {
     translation: {
-      brand: "EcoTrack",
+      brand: "ECOTRACK",
       subtitle: "ಭಾರತದ ಇಂಗಾಲದ ಹೆಜ್ಜೆಗುರುತು ಟ್ರ್ಯಾಕರ್ ಮತ್ತು ಬಹುಮಾನಗಳು",
       nav: {
         log: "ದಿನಚರಿ ದಾಖಲಿಸಿ",
@@ -979,9 +979,9 @@ const resources = {
         deliveries: "ಡೆಲಿವರಿಗಳು",
       },
       auth: {
-        sign_in_title: "EcoTrack ಗೆ ಸುಸ್ವಾಗತ",
+        sign_in_title: "ECOTRACK ಗೆ ಸುಸ್ವಾಗತ",
         sign_in_sub: "ನಿಮ್ಮ ಪರಿಶೀಲಿಸಿದ ಕಾರ್ಬನ್ ಡ್ಯಾಶ್‌ಬೋರ್ಡ್, ಲೆಡ್ಜರ್ ಮತ್ತು ವೋಚರ್‌ಗಳನ್ನು ವೀಕ್ಷಿಸಿ.",
-        create_acc_title: "EcoTrack ಗೆ ಸೇರಿ",
+        create_acc_title: "ECOTRACK ಗೆ ಸೇರಿ",
         create_acc_sub: "ದೈನಂದಿನ ಇಂಗಾಲ ಹೊರಸೂಸುವಿಕೆ ಟ್ರ್ಯಾಕ್ ಮಾಡಿ, ಬಿಲ್ ಪರಿಶೀಲಿಸಿ ಕಾರ್ಬನ್ ನಾಣ್ಯಗಳನ್ನು ಪಡೆಯಿರಿ.",
         tab_sign_in: "ಸೈನ್ ಇನ್",
         tab_register: "ಖಾತೆ ತೆರೆಯಿರಿ",
@@ -1147,7 +1147,7 @@ const resources = {
         saved_col: "ಒಟ್ಟು ಉಳಿತಾಯ",
       },
       chat: {
-        title: "EcoTrack ಸಹಾಯಕ",
+        title: "ECOTRACK ಸಹಾಯಕ",
         subtitle: "ಕನ್ನಡ, English, हिन्दी, தமிழ், ಅಥವಾ తెలుగుದಲ್ಲಿ ಮಾತನಾಡಿ ಅಥವಾ ಚಾಟ್ ಮಾಡಿ",
         placeholder: "ವಿದ್ಯುತ್ ಬಿಲ್, ಉಳಿತಾಯ ಕ್ರಮಗಳು, ಸೋಲಾರ್ ಅಥವಾ ಇವಿ ಬಗ್ಗೆ ಕೇಳಿ...",
         send: "ಕಳುಹಿಸಿ",

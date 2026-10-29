@@ -35,7 +35,7 @@ EXAMPLES = [
 ]
 
 print("=" * 72)
-print("CarbonKatha /parse — offline demo (rule-based fallback)")
+print("ECOTRACK /parse — offline demo (rule-based fallback)")
 print("=" * 72)
 for text, lang in EXAMPLES:
     result = service.parse(type("Req", (), {"text": text, "language": lang})())

@@ -1,4 +1,4 @@
-"""Anthropic Claude API client for CarbonKatha NLP parsing."""
+"""Anthropic Claude API client for ECOTRACK NLP parsing."""
 
 import json
 import re
@@ -31,7 +31,7 @@ class ClaudeLanguageEngine:
             with open(AIConfig.PARSE_SYSTEM_PROMPT_PATH, "r", encoding="utf-8") as f:
                 self.system_prompt = f.read()
         else:
-            self.system_prompt = "You are CarbonKatha language engine. Return strictly valid JSON."
+            self.system_prompt = "You are the ECOTRACK language engine. Return strictly valid JSON."
 
     def is_ready(self) -> bool:
         return self.client is not None

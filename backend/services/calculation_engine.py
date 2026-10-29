@@ -1,4 +1,4 @@
-"""Authoritative Emissions Calculation Engine for CarbonKatha 2.0.
+"""Authoritative emissions calculation engine for ECOTRACK.
 Calculates verified emissions across all 7 categories using Indian CEA v19 and IPCC standards.
 """
 
