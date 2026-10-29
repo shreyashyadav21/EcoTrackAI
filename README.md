@@ -1,3 +1,4 @@
+ HEAD
 # CarbonKatha 2.0 🌿
 
 > **AI-Powered Carbon Footprint Tracking, Verification, Reduction, and Rewards Platform for India**  
@@ -123,3 +124,7 @@ Preserved the soothing **Green-Beach Coastal Theme**:
 - Soft Sandy Beach Background: `#FAF6F0`
 - Deep Coastal Text: `#1C3329`
 - Warm Coral Accent: `#E76F51`
+=======
+# coresync-t3-03
+Official HackFest 2026 repository for team CoreSync (T3-03).
+ 0d68b55ad34787513c4bac546eb5e88e5981a729
